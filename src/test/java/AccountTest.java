@@ -10,7 +10,7 @@ public class AccountTest {
     // --- EMAIL DOĞRULAMA TESTLERİ (EP & BVA) ---
 
     @Test
-    @DisplayName("Email: Geçerli format kabul edilmeli")
+    DisplayName("Email: Geçerli format kabul edilmeli")
     void testValidEmail() {
         assertTrue(accountService.validateEmail("bunyamin@example.com"), "Geçerli email kabul edilmeli.");
     }
